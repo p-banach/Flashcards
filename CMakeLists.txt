@@ -3,4 +3,5 @@ project(flashcards)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(flashcards main.cpp)
+add_executable(flashcards
+        src/main.cpp)
