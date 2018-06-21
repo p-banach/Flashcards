@@ -28,6 +28,10 @@ struct card {
 
 card card_array[CARD_ARRAY_SIZE];
 
+void print(){
+    printf("Czesc");
+}
+
 bool PromptForChar(const char *prompt, char &readch) {
     std::string tmp;
     std::cout << prompt << std::endl;
